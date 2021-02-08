@@ -2,10 +2,7 @@ const express = require('express')
 const server = express()
 const path = require('path')
 
-const XLSX = require('xlsx')
-let workbook = XLSX.readFile('teste.xlsx')
-console.log(XLSX)
-
+// const port = process.env.PORT || 3000
 
 server.set('view engine', 'ejs')
 server.set('views', path.join(__dirname ,'views'))
