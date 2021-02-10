@@ -30,7 +30,7 @@ document.getElementById('button').addEventListener('click', () => {
             const getCidade = rowObject.map(cidade).filter(retirarVazio)
             const getRecurso = rowObject.map(recurso).filter(retirarVazio)
 
-            // console.log(create(getPon))
+            //console.log(create(getPon))
 
             document.getElementById('jsondata').innerHTML = JSON.stringify(rowObject, undefined, 4)
           
